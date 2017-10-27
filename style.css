@@ -1,0 +1,43 @@
+h1 {
+  font-family: impact;
+}
+#boiler {
+  font-family: sans-serif;
+  color: #B8B4B7;
+}
+
+#delicious{
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#social{
+  float: right;
+}
+
+#print-icon{
+  float: right;
+}
+
+#ingredients{
+  background image: url('img\\list-bg.png');
+}
+
+#left-check{
+  text-align: left;
+}
+
+#right-check{
+  text-align: right;
+}
+
+#recipie{
+  font-family: times;
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+#copyright{
+  text-align: center;
+}
