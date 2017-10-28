@@ -1,15 +1,29 @@
+body{
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 h1 {
   font-family: impact;
 }
 #boiler {
   font-family: sans-serif;
+  font-size: 12px;
   color: #B8B4B7;
+}
+
+#imagelogo{
+  display: inline;
 }
 
 #delicious{
   font-family: 'Pacifico', cursive;
+  display: inline;
   font-style: italic;
-  font-size: 40px;
+  font-size: 35px;
+  float: top;
 }
 
 #social{
@@ -17,25 +31,59 @@ h1 {
 }
 
 #print-icon{
+  display: inline;
   float: right;
+  margin-bottom: 20px;
+  text-align: right;
 }
 
 #ingredients{
-  background image: url('img\\list-bg.png');
+  background-image: url('img/list-bg.png');
+  font-family: 'Patrick Hand', cursive;
+  font-size: 25px;
 }
 
 #left-check{
+  display: inline-block;
   text-align: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #right-check{
-  text-align: right;
+  display: inline-block;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px
 }
 
 #recipie{
   font-family: times;
   text-indent: 20px;
   font-size: 18px;
+}
+
+#vanessa{
+  display: inline-block;
+}
+
+#vantext{
+  display: inline-block;
+}
+
+#input{
+  background-color: #E85748;
+}
+
+#recipiebutton{
+  text-align: right;
+  float: right;
+  background-color: #E85748;
+}
+
+#smalllogo{
+  text-align: center;
 }
 
 #copyright{
